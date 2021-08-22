@@ -63,7 +63,9 @@ Time takento run inference on test dataset for vanilla `k-NN` is indepedent of `
 --- 
 
 ### Question 3a
-Both algorithms are correct. The algorithm of Alibe runs in `O(n(d+k))` while that of Bob runs in `O(ndk)`. Alice's algorithm is much faster.
+Both algorithms are correct. Alice's algorithm runs in `O(n(d+k))` while that of Bob runs in `O(ndk)`. Alice's algorithm is much faster.
+
+For implementations, check out `alice_knn.py` and `bob_knn.py`.
 
 ### Question 3b
 Maintain a BST with `k` nodes where the BST tracks the top `k` smallest distances. This would reduce the running time to `O(n(d + logk))`. 
