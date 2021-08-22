@@ -68,9 +68,21 @@ Both algorithms are correct. Alice's algorithm runs in `O(n(d+k))` while that of
 For implementations, check out `alice_knn.py` and `bob_knn.py`.
 
 ### Question 3b
-Maintain a BST with `k` nodes where the BST tracks the top `k` smallest distances. This would reduce the running time to `O(n(d + logk))`. 
+Maintain a BST with `k` nodes where the BST tracks the top `k` smallest distances. This would reduce the running time to `O(n(d + logk))`. Here's how you can do it:
 
---- 
+1. Calculate distances between all the `n` points and the new observation. This takes `O(nd)`
+
+2. Add the first `k` distances into a Balanced BST (Min. Heap)
+
+3. Look at the `n-k` unadded distances and iterate through them
+
+4. If current distance is > BST root, ignore and move to the next one. This takes `O(logk)`
+
+5. If current distance is < BST root, replace with current distance and move on. This takes `O(n * logk)` for all `n` samples
+
+6. By the end, you'll have the correct answers occupying all the `k` nodes in the BST. This takes `O(nd + nlogk)` in total
+
+---
 
 ### Question 4
 No. The difference between the two ranges give `0.4` and `10º Celcius`. This means the `Temperature` variable will dominate the k-NN when calculating the Euclidean Distance, minimising the impact or effect of the `Humidity` variable.
