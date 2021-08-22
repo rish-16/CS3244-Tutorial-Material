@@ -58,7 +58,7 @@ k_l < k_c < k_r
 ```
 
 ### Question 2c
-Time takento run inference on test dataset for vanilla `k-NN` is indepedent of `k`. Altogether, we'll still be taking `m * t` time given a dataset of `m` samples.
+Time taken to run inference on test dataset for vanilla `k-NN` is indepedent of `k`. Altogether, we'll still be taking `m * t` time given a dataset of `m` samples.
 
 --- 
 
