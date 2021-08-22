@@ -68,19 +68,30 @@ Both algorithms are correct. Alice's algorithm runs in `O(n(d+k))` while that of
 For implementations, check out `alice_knn.py` and `bob_knn.py`.
 
 ### Question 3b
-Maintain a BST with `k` nodes where the BST tracks the top `k` smallest distances. This would reduce the running time to `O(n(d + logk))`. Here's how you can do it:
+Maintain a Balanced BST (Min/Max Heap) with `k` nodes where the BST tracks the top `k` smallest distances. This would reduce the running time to `O(n(d + logk))`. Here's how you can do it:
 
 1. Calculate distances between all the `n` points and the new observation. This takes `O(nd)`
 
-2. Add the first `k` distances into a Balanced BST (Min. Heap)
+2. Add the first `k` distances into a Balanced BST
 
 3. Look at the `n-k` unadded distances and iterate through them
 
 4. If current distance is > BST root, ignore and move to the next one. This takes `O(logk)`
 
-5. If current distance is < BST root, replace with current distance and move on. This takes `O(n * logk)` for all `n` samples
+5. If current distance is < BST root, remove root, insert current distance, and move on. This takes `O(n * logk)` for all `n` samples
 
 6. By the end, you'll have the correct answers occupying all the `k` nodes in the BST. This takes `O(nd + nlogk)` in total
+
+> Essentially, we are taking the first `k` distances that may be incorrect and replacing them one by one with the correct `k` distances.
+
+<p align="center">
+    <img src="./assets/knn_bst.jpg" width=500 />
+</p>    
+
+```
+if d_(k+1) < d_root:
+    d_root = d_(k+1)
+```
 
 ---
 
