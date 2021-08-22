@@ -19,9 +19,9 @@ Rank      Point     Distance       Label
 8         (2, 3)    2.236          1    
 
 Rank      Point     Distance       Label
-8         (0, 1)    1.000          1    
-8         (1, 0)    1.000          1    
-8         (1, 2)    1.000          1    
+1         (0, 1)    1.000          1    
+2         (1, 0)    1.000          1    
+3         (1, 2)    1.000          1    
 
 The new point (1, 1) belongs to class 1 using 3-NN.
 ```
@@ -39,13 +39,13 @@ Rank      Point     Distance       Label
 8         (2, 3)    2.236          1    
 
 Rank      Point     Distance       Label
-8         (0, 1)    1.000          1    
-8         (1, 0)    1.000          1    
-8         (1, 2)    1.000          1    
-8         (0, 2)    1.414          0    
-8         (2, 2)    1.414          0    
-8         (-1, 1)   2.000          0    
-8         (1, -1)   2.000          0    
+1         (0, 1)    1.000          1    
+2         (1, 0)    1.000          1    
+3         (1, 2)    1.000          1    
+4         (0, 2)    1.414          0    
+5         (2, 2)    1.414          0    
+6         (-1, 1)   2.000          0    
+7         (1, -1)   2.000          0    
 
 The new point (1, 1) belongs to class 0 using 7-NN.
 ```
