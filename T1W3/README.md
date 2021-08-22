@@ -1,6 +1,6 @@
 # Tutorial 1 Week 3: k-Nearest Neighbours
 
-In T1W3, I cover the k-Nearest Neighbours (k-NN) algorithm. 
+In T1W3, I cover the k-Nearest Neighbours (k-NN) algorithm. Find the tutorial slides [here](https://www.figma.com/file/jqyuC4tzHUu84NaXc28zPI/Tutorial-Slides?node-id=0%3A1).
 
 ## Contents
 This repo contains the code used to answer Questions 2, 3, 4.
