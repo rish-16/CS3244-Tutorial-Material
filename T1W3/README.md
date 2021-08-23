@@ -98,4 +98,4 @@ if d_(k+1) < d_root:
 ### Question 4
 No. The difference between the two ranges give `0.4` and `10º Celcius`. This means the `Temperature` variable will dominate the k-NN when calculating the Euclidean Distance, minimising the impact or effect of the `Humidity` variable.
 
-We can minimise the effect of this disproportion by normalising or standardising the inputs to a suitable range that won't affect the distance metric immensely. This will be covered in future classes.
+We can minimise the effect of this disproportion by **normalising** or **standardising** the inputs to a suitable range that won't affect the distance metric immensely. This will be covered in future classes.
