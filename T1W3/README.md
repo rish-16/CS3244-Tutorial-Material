@@ -76,7 +76,7 @@ Maintain a Balanced BST (Min/Max Heap) with `k` nodes where the BST tracks the t
 
 3. Look at the `n-k` unadded distances and iterate through them
 
-4. If current distance is > BST root, ignore and move to the next one. This takes `O(logk)`
+4. If current distance is > BST root, ignore and move to the next one. This takes `O(1)`
 
 5. If current distance is < BST root, remove root, insert current distance, and move on. This takes `O(n * logk)` for all `n` samples
 
