@@ -13,7 +13,7 @@ This repository contains code, figures, and miscelleaneous items that aid me in 
 Here's a list of what I've covered / I'll be covering in my tutorials:
 
 - T1W3: k-Nearest Neighbours
-- T2W4:
+- T2W4: Decision Trees
 - T3W5:
 - T4W6:
 - T5W7:
