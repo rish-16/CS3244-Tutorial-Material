@@ -8,7 +8,7 @@ Nope. You could ask "why don't we add in a new feature called `time` and call it
 ### Your headaches
 Imagine Decision Trees *could* learn temporal information. If you added a feature for `time`, you're okay for the most part if your time is discrete ie. `t = 1, 2, 3, ..., T`. You are absolutely screwed if your time is continuous which is the case for most real-life applications. Your rows, and hence, your dataset, will blow up exponentially for each sample/instance.
 
-Your discrete time dataset would look like this:
+Your discrete time dataset (or words or daily stock prices) would look like this. How would you even make this Decision-Tree-friendly?
 
 | Sample Index   | Token Index | Vector Repr | Label |
 | -------------- | ----------- | ----------- | ----- |
@@ -16,17 +16,15 @@ Your discrete time dataset would look like this:
 |                | 2           | w\_2        | 1     |
 |                | 3           | w\_3        | 1     |
 |                | 4           | w\_4        | 1     |
-|                | 5           | w\_5        | 1     |
 | 2              | 1           | w\_1        | 0     |
 |                | 2           | w\_2        | 0     |
 |                | 3           | w\_3        | 0     |
 |                | 4           | w\_4        | 0     |
 |                | 5           | w\_5        | 0     |
+|                | 6           | w\_6        | 0     |
 | 3              | 1           | w\_1        | 1     |
 |                | 2           | w\_2        | 1     |
 |                | 3           | w\_3        | 1     |
-|                | 4           | w\_4        | 1     |
-|                | 5           | w\_5        | 1     |
 
 ### Temporal features
 Temporal features indicate a sequential nature to the instances, likely spanning multiple timesteps each. They have a general pattern of `x_i = [v_1, v_2, v_3, ..., v_T]` where `T` is the number of timesteps and `v_t` is some vector representation of each timestep (words, pixels, or daily stock price, for example). 
