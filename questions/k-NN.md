@@ -10,7 +10,9 @@ Nope. The `k` hyperparameter refers purely to the number of *closest* samples fr
 
 <br>
 Nope. A k-NN first calculates distance between the new observation and the `m` training points. Next, it finds the `k` closest points to the new observation and classifies it as the majority class within the top `k` points. If `k = 0`, you're basically ignoring and neglecting the dataset completely. You can't even classify the new observation because we aren't able to get a majority of anything – you can't get the labels of `0` closest points. It's a bit absurd and destroys the purpose of using a comparison-based `k-NN` model.
+
 <br><br>
+
 Empirically, `k` values of 3, 5, and 7 are used. This gives some leeway to generalise without overfitting or underfitting. Though, depending on the specific context, you may have to change that. Always test your `k` models in practice such that it gives the best performance on the testing dataset.
 </details>
 
