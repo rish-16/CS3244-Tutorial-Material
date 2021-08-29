@@ -12,8 +12,8 @@ This repository contains code, figures, and miscelleaneous items that aid me in 
 
 Here's a list of what I've covered / I'll be covering in my tutorials:
 
-- **T1W3:** k-Nearest Neighbours
-- **T2W4:** Decision Trees
+- **[T1W3](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T1W3):** k-Nearest Neighbours
+- **[T2W4](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T2W4):** Decision Trees
 - **T3W5:**
 - **T4W6:**
 - **T5W7:**
