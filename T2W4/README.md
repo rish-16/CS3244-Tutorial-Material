@@ -2,7 +2,7 @@
 
 In T2W4, I cover the Decision Tree algorithm. Find the tutorial slides [here](https://www.figma.com/file/jqyuC4tzHUu84NaXc28zPI/Tutorial-Slides?node-id=0%3A1).
 
-I have included the implementation of a Decision Tree classifier in pure Python using `numpy` and `pandas` in `dtc.py`. You can call it in a similar fashion to that in `sklearn` using the `DecisionTreeClassifier` object.
+I have included the implementation of a Decision Tree classifier in pure Python using `numpy` and `pandas` in `dtc.py`. You can call it in a similar fashion to that in `sklearn` using the `DecisionTreeClassifier` object. I train it on the popular *Iris Type Classification Dataset* found in `data/iris.csv`.
 
 ## Contents
 This repo contains the code used to answer Questions 1, 2, 3, and 4.
