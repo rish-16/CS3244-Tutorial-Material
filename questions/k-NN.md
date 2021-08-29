@@ -28,7 +28,6 @@ Nope. Then that just considers all the points as the closest and considers the m
 3. By sheer counting, there are *way more* `no` points than `yes` points
 4. Your new observation will be classified as `no` even though it could have been `yes`
 
-<br>
 Why? By simple majority voting, of course.
 <br><br>
 This situation is called **Class Imbalance** and is covered in this module.
