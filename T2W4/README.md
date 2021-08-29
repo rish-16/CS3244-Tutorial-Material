@@ -72,14 +72,30 @@ At each level, the main question we will be asking is,
 Which feature to choose such that splitting via that gives us the "greatest purity" ie. the most even split between samples.
 ```
 
-> Refer to the slides for more on Information Gain and Entropy. We covered Claude Shannon's Information Theory in this class! 
+> Refer to the slides for more on Information Gain and Entropy. We covered Claude Shannon's Information Theory in this class!
+
+The tree would look like so:
+
+```
+                   CrHi?
+            /        |       \        
+        Bad/     Good|        \Unknown
+          /          |         \
+         Rej        App        Income?
+                            /     |     \
+                           /      |      \
+                      0-5K/  5-10K|       \10K+ 
+                       Debt      App      App
+                      /   \
+                  Low/     \High
+                   App     Rej
+``` 
 
 ### Question 2b
 
 Tree 1:
 ```
-            CrH?
-
+           CrHi?
        /     |     \
   Good/   Bad|      \Unknown
      App    Rej     Income?
@@ -90,8 +106,7 @@ Tree 1:
 
 Tree 2:
 ```
-            CrH?
-
+           CrHi?
        /     |     \
   Good/   Bad|      \Unknown
      App    Rej      Debt?
