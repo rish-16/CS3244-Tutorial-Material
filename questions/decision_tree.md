@@ -31,7 +31,7 @@ Temporal features indicate a sequential nature to the instances, likely spanning
 
 This brings me to the concept of *Recurrence* where the future timestep depends on what came before. As in, `P(v_{t+1} | [v_1, v_2, ..., v_t])`. To predict data in the future, you need to know data in the past. 
 
-## How Decision Trees learn
+### How Decision Trees learn
 
 As such, purely going by how Decision Trees learn over data, you can't re-feed related data into a Decision Tree. Every single sample you send through a DT is assumed to be independent of all other samples or inputs fed into it. Your task with a DT is *ideal path selection* ie. finding your way to some arbitrary leaf node for the final classification. There is no going back up in any way once you start going down. Once you pass a branch, you will never go back up that branch ever again.
 
