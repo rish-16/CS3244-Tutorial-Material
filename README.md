@@ -12,17 +12,17 @@ This repository contains code, figures, and miscelleaneous items that aid me in 
 
 Here's a list of what I've covered / I'll be covering in my tutorials:
 
-- T1W3: k-Nearest Neighbours
-- T2W4: Decision Trees
-- T3W5:
-- T4W6:
-- T5W7:
-- T6W8:
-- T7W9:
-- T8W10:
-- T9W11:
-- T10W12:
-- T11W13:
+- **T1W3:** k-Nearest Neighbours
+- **T2W4:** Decision Trees
+- **T3W5:**
+- **T4W6:**
+- **T5W7:**
+- **T6W8:**
+- **T7W9:**
+- **T8W10:**
+- **T9W11:**
+- **T10W12:**
+- **T11W13:**
 
 ## Contributions
 If there are any issues or suggestions, feel free to raise an Issue or PR. All meaingful contributions welcome!
