@@ -20,10 +20,12 @@ Empirically, `k` values of 3, 5, and 7 are used. This gives some leeway to gener
 <br>
 Nope. Then that just considers all the points as the closest and considers the majority of your dataset's sample labels. For example, if your dataset has 20 `yes` labels and 50 `no` labels, and if we set `k = m`, this is what happens:
 <br><br>
+
 1. You calculate the distance between new observation and all `m` training points
 2. You consider the labels of all `m` training points
 3. By sheer counting, there are *way more* `no` points than `yes` points
 4. Your new observation will be classified as `no` even though it could have been `yes`
+
 <br><br>
 Why? By simple majority voting, of course.
 <br><br>
