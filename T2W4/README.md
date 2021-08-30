@@ -68,6 +68,7 @@ The features are as follows:
 The label is `Decision`.
 
 At each level, the main question we will be asking is,
+
 ```
 Which feature to choose such that splitting via that gives us the "greatest purity" ie. the most even split between samples.
 ```

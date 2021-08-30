@@ -8,6 +8,8 @@ Nope. You could ask "why don't we add in a new feature called `time` and call it
 ### Your headaches
 Imagine Decision Trees *could* learn temporal information. If you added a feature for `time`, you're okay for the most part if your time is discrete ie. `t = 1, 2, 3, ..., T`. You are absolutely screwed if your time is continuous which is the case for most real-life applications. Your rows, and hence, your dataset, will blow up exponentially for each sample/instance.
 
+IRL, 
+
 Your discrete time dataset (or words or daily stock prices) would look like this. How would you even make this Decision-Tree-friendly?
 
 | Sample Index   | Token Index | Vector Repr | Label |
