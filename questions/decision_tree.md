@@ -8,9 +8,9 @@ Nope. You could ask "why don't we add in a new feature called `time` and call it
 ### Your headaches
 Imagine Decision Trees *could* learn temporal information. If you added a feature for `time`, you're okay for the most part if your time is discrete ie. `t = 1, 2, 3, ..., T`. You are absolutely screwed if your time is continuous which is the case for most real-life applications. Your rows, and hence, your dataset, will blow up exponentially for each sample/instance.
 
-IRL, 
+IRL, temporal data consists of sequential samples `x_i` with `T` timesteps. Each timestep is represented by a vector in `R^n` that encompasses the information at that timestep. So, for a sequence of words (ie. a sentence) like "the horse drank water", the numeric representation would be `x_i = [v_1, v_2, v_3, v_4]` where `v_i` is a *word vector*. You can use a similar technique to encode all kinds of sequential information like pixels in an image (each timestep would be a pixel from left to right, top to bottom) or weekly stock prices (each timestep would be a daily price point). This makes the data 2-dimensional (ie. a matrix) instead of your usual 1-dimensional data (simple vector).
 
-Your discrete time dataset (or words or daily stock prices) would look like this. How would you even make this Decision-Tree-friendly?
+Your discrete time dataset (of words or daily stock prices) would look like this. How would you even make this Decision-Tree-friendly?
 
 | Sample Index   | Token Index | Vector Repr | Label |
 | -------------- | ----------- | ----------- | ----- |
