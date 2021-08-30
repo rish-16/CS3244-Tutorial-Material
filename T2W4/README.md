@@ -69,11 +69,8 @@ The label is `Decision`.
 
 At each level, the main question we will be asking is,
 
-```
-Which feature to choose such that splitting via that gives us the "greatest purity" ie. the most even split between samples.
-```
 
-> Refer to the slides for more on Information Gain and Entropy. We covered Claude Shannon's Information Theory in this class!
+> Which feature to choose such that splitting via that gives us the "greatest purity" ie. the most even split between samples.
 
 The tree would look like so:
 
@@ -91,6 +88,8 @@ The tree would look like so:
                   Low/     \High
                    App     Rej
 ``` 
+
+*Note: Refer to the slides for more on Information Gain and Entropy. We covered Claude Shannon's Information Theory in this class!*
 
 ### Question 2b
 
