@@ -18,7 +18,7 @@ This repo contains the code used to answer Questions 1, 2, 3, and 4.
                      0/   \1
                    F=1    S_3
                          /   \
-                        /     \
+                       0/     \1
                       F=1     F=0
 ```
 
