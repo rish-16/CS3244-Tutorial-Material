@@ -8,6 +8,7 @@ Here's the list of topics covered during our sessions:
 |----------------------|--------------------|--------------|
 | k-Nearest Neighbours | `k-NN.md`          | T1W3         |
 | Decision Trees       | `decision_tree.md` | T2W4         |
+| Linear Models        | `linear_models.md` | T3W5         |
 
 > This table and the different files will be incrementally updated as we progress together in CS3244. 
 
