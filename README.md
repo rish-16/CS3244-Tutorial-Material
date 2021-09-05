@@ -14,7 +14,7 @@ Here's a list of what I've covered / I'll be covering in my tutorials:
 
 - **[T1W3](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T1W3):** k-Nearest Neighbours
 - **[T2W4](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T2W4):** Decision Trees
-- **T3W5:**
+- **[T3W5](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T3W5):** Linear Models
 - **T4W6:**
 - **T5W7:**
 - **T6W8:**

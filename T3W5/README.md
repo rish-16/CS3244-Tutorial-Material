@@ -2,7 +2,7 @@
 
 In T3W5, I cover the Linear Models. Find the tutorial slides [here](https://www.figma.com/file/jqyuC4tzHUu84NaXc28zPI/Tutorial-Slides?node-id=0%3A1).
 
-I've included the pure Python implementations of `LinearRegressionClassifier`, `LogisticRegressionClassifier`, and `SupportVectorMachine` (SVM). You can call them in a similar fashion to that in `sklearn`. I train them on the popular *Iris Type Classification Dataset* found in `data/iris.csv`.
+I've included the pure Python implementations of `LinearRegressionClassifier`, `LogisticRegressionClassifier`, and `SupportVectorMachine`. You can call them in a similar fashion to related models from `sklearn`. I train them on the popular *Iris Type Classification Dataset* found in `data/iris.csv`.
 
 ## Contents
 This repo contains the code used to answer Questions 1, 2, and 5.
