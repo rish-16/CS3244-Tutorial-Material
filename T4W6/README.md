@@ -1,6 +1,6 @@
 # Tutorial 4 Week 6: Bias Variance Tradeoff
 
-In T4W6, I cover Bias-Variance Tradeoff, Regularisation, and Validation. Find the tutorial slides [here](https://www.figma.com/file/jqyuC4tzHUu84NaXc28zPI/Tutorial-Slides?node-id=0%3A1).
+In T4W6, I cover Bias-Variance Tradeoff. Find the tutorial slides [here](https://www.figma.com/file/jqyuC4tzHUu84NaXc28zPI/Tutorial-Slides?node-id=0%3A1).
 
 ## Contents
 This repo contains answers for Questions 1 and 2.
