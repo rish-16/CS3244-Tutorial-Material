@@ -2,9 +2,9 @@
 
 In T3W5, I cover the Linear Models. Find the tutorial slides [here](https://www.figma.com/file/jqyuC4tzHUu84NaXc28zPI/Tutorial-Slides?node-id=0%3A1).
 
-This repo contains Python implementations of `LinearRegressionClassifier`, `LogisticRegressionClassifier`, and `SupportVectorMachine`. You can call them in a similar fashion to related models from `sklearn`. I train them on the popular *Iris Type Classification Dataset* found in `data/iris.csv`.
+This repo contains Python implementations of `LinearRegressionClassifier`, `LogisticRegressionClassifier`, and `SupportVectorClassifier`. You can call them in a similar fashion to related models from `sklearn`. I train them on the popular *Iris Type Classification Dataset* found in `data/iris.csv`, as well as the *Breast Cancer Classification Dataset* from `sklearn.datasets`. 
 
-> Implementations will be added soon and are not available yet. I appreciate your patience!
+> You can find the SVM implementation in `Intro_to_Support_Vector_Machines.ipynb`. It has some more in-depth comments inside.
 
 ## Contents
 This repo contains the code used to answer Questions 1, 2, and 5.
