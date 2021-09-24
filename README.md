@@ -31,7 +31,7 @@ I have also added a collection of FAQs asked by my students at the end of class,
 ## Exam Resources
 I've prepared some extra resources that might aid you in your exam preparation. You can find the files here:
 
-- [**Midterm Cheatsheet:**]() Lectures `1a: Intro & Class Org.` to `6: Bias Variance Tradeoff`
+- [**Midterm Cheatsheet:**](https://github.com/rish-16/CS3244-Tutorial-Material/blob/main/misc/CS3244_Midterm_Cheatsheet.pdf) Lectures `1a: Intro & Class Org.` to `6: Bias Variance Tradeoff`
 - [**Finals Cheatsheet:**]() TBA
 
 ## Contributions
