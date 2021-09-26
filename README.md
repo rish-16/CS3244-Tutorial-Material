@@ -16,7 +16,7 @@ Here's a list of what I've covered / I'll be covering in my tutorials:
 - **[T2W4](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T2W4):** Decision Trees
 - **[T3W5](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T3W5):** Linear Models
 - **[T4W6](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T4W6):** Bias-Variance Tradeoff
-- **T5W7:**
+- **[T5W7](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T4W6):** Regularisation and Validation
 - **T6W8:**
 - **T7W9:**
 - **T8W10:**
@@ -24,7 +24,7 @@ Here's a list of what I've covered / I'll be covering in my tutorials:
 - **T10W12:**
 - **T11W13:**
 
-> The slides for all my tutorials can be found [here](https://www.figma.com/file/jqyuC4tzHUu84NaXc28zPI/Tutorial-Slides?node-id=0%3A1).
+> The link to the slides for all my tutorials can be found in the `README.md` in the week's respective folders.
 
 I have also added a collection of FAQs asked by my students at the end of class, split by the topics covered in this module. You can find it in [`questions/`](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/questions). It's a growing list so stay tuned for updates added every week.
 
