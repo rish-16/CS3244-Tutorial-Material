@@ -1,4 +1,4 @@
-# Tutorial 5 Week 7: Linear Models
+# Tutorial 5 Week 7: Regularisation and Validation
 
 > Hope you had a productive Recess Week! Let's try getting that 'A' for midterms :D
 
