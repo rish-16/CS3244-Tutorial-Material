@@ -59,10 +59,10 @@ Look at graph 1. There are possible sums to consider:
 Look at graph 2. There are possible sums to consider:
 
 1. Minimum MSE + Flexible Reg Penalty = `0.1 + 9.0 = 9.1` (NOPE)
-2. Flexible MSE + Minimum Reg Penalty = `0.0 + 4.4 = 4.4` (NOPE)
-3. Middle ground = `2.5 + 2.2 = 4.7` (CORRECT)
+2. Middle ground = `2.5 + 2.2 = 4.7` (NOPE)
+3. Flexible MSE + Minimum Reg Penalty = `0.0 + 4.4 = 4.4` (CORRECT)
 
-> The minimum sum corresponds to the pair `(0.0, 0.55)`
+> The minimum sum corresponds to the pair `(0.0, 0.1)`
 
 ---
 
