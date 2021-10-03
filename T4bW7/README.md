@@ -1,8 +1,8 @@
-# Tutorial 5 Week 7: Regularisation and Validation
+# Tutorial 4b Week 7: Regularisation and Validation
 
 > Hope you had a productive Recess Week! Let's try getting that 'A' for midterms :D
 
-In T5W7, I cover the Regularisation and Validation. Find the tutorial slides [here](https://docs.google.com/presentation/d/1eE1In5ZS19YKgN3DN9VjNhBavHQoMaKB9NjZ-hreTG0/edit?usp=sharing).
+In T4bW7, I cover the Regularisation and Validation. Find the tutorial slides [here](https://docs.google.com/presentation/d/1eE1In5ZS19YKgN3DN9VjNhBavHQoMaKB9NjZ-hreTG0/edit?usp=sharing).
 
 ## Contents
 This repo contains the code used to answer Questions 1, 2, and 3.

@@ -16,8 +16,8 @@ Here's a list of what I've covered / I'll be covering in my tutorials:
 - **[T2W4](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T2W4):** Decision Trees
 - **[T3W5](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T3W5):** Linear Models
 - **[T4W6](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T4W6):** Bias-Variance Tradeoff
-- **[T5W7](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T5W7):** Regularisation and Validation
-- **T6W8:**
+- **[T4bW7](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T4bW7):** Regularisation and Validation
+- **[T5W8](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T5W8):** Evaluation Metrics
 - **T7W9:**
 - **T8W10:**
 - **T9W11:**
