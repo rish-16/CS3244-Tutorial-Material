@@ -47,7 +47,12 @@ Brute force method of calculating F1 scores for all model outputs as thresholds 
 Total optimised run time is `O(m logm)`.
 
 ### Question 1c
-> TBA (there might be an issue with this question). I'll get back to you on this.
+Here, the number of thresholds are increased beyond number of samples in the dataset.
+
+1. Sort all samples – `O(m logm)`
+2. If we pick a threshold between two samples (in sorted order), they'll give the same F1 score
+3. This means there can only be `(m+1)` possible F1 scores to consider
+4. We can binary search for the best F1 score peak – O(logm)
 
 ---
 
