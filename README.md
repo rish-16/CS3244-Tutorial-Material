@@ -15,7 +15,7 @@ Here's a list of what I've covered / I'll be covering in my tutorials:
 - **[T1W3](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T1W3):** k-Nearest Neighbours
 - **[T2W4](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T2W4):** Decision Trees
 - **[T3W5](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T3W5):** Linear Models
-- **[T4W6](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T4W6):** Bias-Variance Tradeoff
+- **[T4aW6](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T4aW6):** Bias-Variance Tradeoff
 - **[T4bW7](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T4bW7):** Regularisation and Validation
 - **[T5W8](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T5W8):** Evaluation Metrics
 - **T7W9:**
@@ -24,7 +24,7 @@ Here's a list of what I've covered / I'll be covering in my tutorials:
 - **T10W12:**
 - **T11W13:**
 
-> The link to the slides for all my tutorials can be found in the `README.md` in the week's respective folders.
+> The link to the slides for all my tutorials can be found in the `README.md` in each week's respective folder.
 
 I have also added a collection of FAQs asked by my students at the end of class, split by the topics covered in this module. You can find it in [`questions/`](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/questions). It's a growing list so stay tuned for updates added every week.
 
