@@ -16,13 +16,13 @@ Here's a list of what I've covered / I'll be covering in my tutorials:
 - **[T2W4](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T2W4):** Decision Trees
 - **[T3W5](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T3W5):** Linear Models
 - **[T4aW6](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T4aW6):** Bias-Variance Tradeoff
-- **[T4bW7](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T4bW7):** Regularisation and Validation
+- **[T4bW7](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T4bW7):** Regularisation & Validation
 - **[T5W8](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T5W8):** Evaluation Metrics
-- **T7W9:**
-- **T8W10:**
-- **T9W11:**
-- **T10W12:**
-- **T11W13:**
+- **[T6W9](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T6W9):** Visualisation & Dimensionality Reduction (Approach TA Pranavan)
+- **[T7W10](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T7W9):** Perceptrons and Neural Networks
+- **[T8W11](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T8W11):** CNNs and RNNs
+- **T9W12:**
+- **T10W13:**
 
 > The link to the slides for all my tutorials can be found in the `README.md` in each week's respective folder.
 
