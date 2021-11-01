@@ -26,8 +26,6 @@ Here's a list of what I've covered / I'll be covering in my tutorials:
 
 > The link to the slides for all my tutorials can be found in the `README.md` in each week's respective folder.
 
-I have also added a collection of FAQs asked by my students at the end of class, split by the topics covered in this module. You can find it in [`questions/`](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/questions). It's a growing list so stay tuned for updates added every week.
-
 ## Exam Resources
 I've prepared some extra resources that might aid you in your exam preparation. You can find the files here:
 
