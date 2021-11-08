@@ -22,7 +22,7 @@ Here's a list of what I've covered / I'll be covering in my tutorials:
 - **[T7W10](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T7W9):** Perceptrons and Neural Networks
 - **[T8W11](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T8W11):** CNNs and RNNs
 - **[T9W12](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T9W12):** Explainable AI
-- **T10W13:**
+- **[T10W13](https://github.com/rish-16/CS3244-Tutorial-Material/tree/main/T10W13):** Unsupervised Learning
 
 > The link to the slides for all my tutorials can be found in the `README.md` in each week's respective folder.
 
