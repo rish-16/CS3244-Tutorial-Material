@@ -30,7 +30,6 @@ Here's a list of what I've covered / I'll be covering in my tutorials:
 I've prepared some extra resources that might aid you in your exam preparation. You can find the files here:
 
 - [**Midterm Cheatsheet:**](https://github.com/rish-16/CS3244-Tutorial-Material/blob/main/misc/CS3244_Midterm_Cheatsheet.pdf) Lectures `1a: Intro & Class Org.` to `6: Bias Variance Tradeoff`
-- [**Finals Cheatsheet:**]() TBA
 
 ## Contributions
 If there are any issues or suggestions, feel free to raise an Issue or PR. All meaningful contributions welcome!
