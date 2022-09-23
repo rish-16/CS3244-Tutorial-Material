@@ -4,6 +4,8 @@ All supplementary material used by me while TA-ing **[CS3244: Machine Learning](
 ## What is this?
 I teach **TG-06**, the tutorial that takes place every **Monday, 1200-1300** in AY21/22 Semester 1. It is *fully online* this semester.
 
+> Unless the syllabus has drastically changed, I believe the material covered here is relevant for future AYs as well (eg: AY22/23++). The module might be deprecated soon so do take note! In future iterations of SOC's Intro to ML module, I still feel the material herein is good enough for preparation purposes.
+
 This repository contains code, figures, and miscelleaneous items that aid me in teaching my class. The main source of reference *should* be the lecture notes and tutorial questions created by the CS3244 Professors and Teaching Staff. 
 
 > Official tutorial solutions will be released at the end of every week.
